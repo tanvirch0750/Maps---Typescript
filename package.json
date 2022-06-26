@@ -5,6 +5,7 @@
   "dependencies": {
     "@faker-js/faker": "^7.3.0",
     "@types/faker": "^6.6.9",
+    "@types/google.maps": "^3.49.2",
     "faker": "^6.6.6"
   }
 }
