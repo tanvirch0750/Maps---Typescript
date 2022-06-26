@@ -16,4 +16,13 @@ export class Company {
       lng: parseFloat(faker.address.longitude()),
     };
   }
+
+  markerPopupContent(): string {
+    return `
+      <div>
+        <h1>User Name: ${this.companyName}</h1>
+        <h2>CatchPhrase: ${this.catchPhrase}</h2>
+      </div>
+    `;
+  }
 }
